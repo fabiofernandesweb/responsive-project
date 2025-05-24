@@ -17,3 +17,10 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+#hero, #tree, .links,
+#tree .buttons .button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
