@@ -18,6 +18,7 @@ html, body {
 
 body {
     background: linear-gradient(200deg, var(--cor-secundaria), var(--cor-primaria), var(--cor-primaria));
+    font-family: 'Rubik', sans-serif;
 }
 
 li {

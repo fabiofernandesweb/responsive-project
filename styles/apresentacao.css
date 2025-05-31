@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content:center ;
     align-items: center;
+    gap: .5rem;
 }
 
 .apresentacao div {
@@ -16,4 +17,19 @@
     object-fit: cover;
     object-position: 0 40%;
     border-radius: 50%;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.apresentacao h1 {
+    font-family: 'Honk';
+    font-size: 1.75rem;
+}
+
+.apresentacao p {
+    background: var(--cor-secundaria);
+    text-transform: uppercase;
+    color: var(--cor-primaria);
+    font-size: 1rem;
+    font-weight: 600;
+    
 }
