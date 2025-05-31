@@ -11,4 +11,8 @@
     .apresentacao p  {
         font-size: .9rem;
     }
+
+    .arvore ul .visibilidade {
+        display: block;
+    }
 }
