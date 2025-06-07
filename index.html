@@ -1,35 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/hero.css">
-    <link rel="stylesheet" href="./styles/tree.css">
-    <title>Design Responsivo</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/apresentacao.css">
+    <link rel="stylesheet" href="./styles/arvore.css">
+    <link rel="stylesheet" href="./styles/responsividade.css">
+    <title>Doglas</title>
 </head>
 <body>
-    <main>
-        <section id="hero">
-            <div>
-                <img src="https://images.unsplash.com/photo-1645106281521-86da01d1031d?q=80&amp;w=2080&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"> 
-            </div>
-            <h1>Desenvolvedor Web</h1>
-            <p>Acesse meu portfólio ou entre em contato comigo pelo Whatsapp.</p>
-        </section>
-        <section id="tree">
-            <ul class="buttons">
-                <li class="button"><a href="#">portfolio</a></li>
-                <li class="button"><a href="#">whatsapp</a></li>
-            </ul>
-            <ul class="links">
-                <li class="social"><a href="#"><img src="./assets/github.svg"></a></li>
-                <li class="social"><a href="#"><img src="./assets/linkedin.svg"></a></li>
-                <li class="social instagram"><a href="#"><img src="./assets/instagram.svg"></a></li>
-            </ul>
-        </section>
-    </main>
+    <div class="apresentacao">
+        <div>
+            <img src="./assets/doglas.jpg">
+        </div>
+        <h1>Aulá! Eu sou o Doglas.</h1>
+        <p>- desenvolvedor web full stack -</p>
+    </div>
+
+    <div class="arvore">
+        <a class="botao" href="">portfolio</a>
+        <a class="botao" href="">whatsapp</a>
+        <ul>
+            <li><a href=""><img src="./assets/github.svg" alt=""></a></li>
+            <li><a href=""><img src="./assets/linkedin.svg" alt=""></a></li>
+            <li class="visibilidade"><a href=""><img src="./assets/instagram.svg" alt=""></a></li>
+        </ul>
+    </div>
 </body>
 </html>
