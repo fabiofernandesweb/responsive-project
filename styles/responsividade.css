@@ -11,8 +11,149 @@
     .apresentacao p  {
         font-size: .9rem;
     }
+ 
+}
 
-    .arvore ul .visibilidade {
-        display: block;
+@media (min-width: 480px) and (orientation: portrait) {
+    .arvore {
+        justify-content: start;
+    }
+
+    .apresentacao div {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .apresentacao h1 {
+        font-size: 3rem;
+    }
+
+    .apresentacao p {
+        font-size: 1.4rem;   
+    }
+
+    .arvore .botao {
+        width: 20rem;
+        height: 6rem;
+        font-size: 3.25rem;
+        margin: .5rem;
+    }
+
+    .arvore ul li {
+        width: 4rem;
+        height: 4rem;
     }
 }
+
+@media (min-width: 480px) and (orientation: landscape) {
+    .apresentacao div {
+        width: 13.5rem;
+        height: 13.5rem;
+    }
+
+    .apresentacao h1 {
+        font-size: 2.65rem;
+    }
+
+    .apresentacao p {
+        font-size: 1.3rem;   
+    }
+
+    .arvore .botao {
+        width: 20rem;
+        height: 6rem;
+        font-size: 3.25rem;
+        margin: .5rem 0;
+    }
+
+    .arvore ul li {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+    .apresentacao {
+        justify-content: end;
+        padding-bottom: 2rem;
+    }
+    
+    .apresentacao div {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .apresentacao h1 {
+        font-size: 3.8rem;
+    }
+
+    .apresentacao p {
+        font-size: 1.5rem;
+    }
+
+    .arvore .botao {
+        width: 23rem;
+        height: 7rem;
+        font-size: 4.5rem;
+        margin: 0.5rem 0;
+    }
+
+    .arvore ul li {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape){
+    
+    .apresentacao div {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .apresentacao h1 {
+        font-size: 3.2rem;
+    }
+
+    .apresentacao p {
+        font-size: 1.5rem;
+    }
+
+    .arvore .botao {
+        width: 22rem;
+        height: 7rem;
+        font-size: 4rem;
+        margin: 0.5rem 0;
+    }
+    .arvore ul li {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@media (min-width: 1200px) and (orientation: landscape) {
+    .apresentacao div {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .apresentacao h1 {
+        font-size: 3.8rem;
+    }
+    
+    .apresentacao p {
+        font-size: 1.8rem;
+    }
+
+    .arvore .botao {
+        width: 25rem;
+        height: 8rem;
+        font-size: 5rem;
+        margin: 0.5rem 0;
+    }
+
+    .arvore ul li {
+        width: 6rem;
+        height: 6rem;
+    }
+} 
